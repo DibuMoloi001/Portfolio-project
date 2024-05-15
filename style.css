@@ -22,6 +22,9 @@ h6 {
 h1 {
   font-size: 96px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -55,6 +58,11 @@ p {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  @media (max-width: 900px) {
+    h4 {
+      font-size: 26px;
+    }
   }
 }
 .btn-branding-outline {
@@ -111,4 +119,27 @@ nav {
 }
 .logo {
   max-height: 40px;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
